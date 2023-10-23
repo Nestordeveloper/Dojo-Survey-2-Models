@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Results";
+}
+<link rel="stylesheet" href="~/css/styles.css">
+@model DojoSurvey;
+
+<body>
+    <div class="container">
+        <div class="resultForm">
+            <h2>Form Data</h2>
+            <p>Name: @Model.Name</p>
+            <p>Location: @Model.Location</p>
+            <p>Language: @Model.Language</p>
+            <p>Comment : @Model.Comment</p>
+            <div class="button">
+                <a href="/">Go Back</a>
+            </div>
+        </div>
+    </div>
+</body>
